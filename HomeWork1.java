@@ -1,3 +1,9 @@
+/**
+ * Java Basic HomeWork1
+ *
+ * @author VladKolesnyk
+ * @version 5/9/2022
+ */
 class HomeWork1 {
     public static void main(String[] args) {
         // Exercise 1
@@ -24,10 +30,9 @@ class HomeWork1 {
         System.out.println(array[2]);
         System.out.println(array[3]);
         System.out.println(array[4]);
-        // Exercise 4 (r: radius of pizza, cm, constanta = 40 kal/1 kv.cm) (k * (Math.PI * ((d / 2) ** 2))))
+        // Exercise 4 (r: radius of pizza, cm, constanta = 40 kal/1 kv.cm)
         int r = 10;
         int kal = 40;
-        int k = 2;
         System.out.println("Sum of kall = " + (kal * (Math.PI * (r * r))));
     }
 }
