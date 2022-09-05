@@ -1,4 +1,4 @@
-class HelloWorld {
+class HomeWork1 {
     public static void main(String[] args) {
         // integer types: int, byte, short, long
         int a = 10;
