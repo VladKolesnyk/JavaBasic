@@ -2,7 +2,8 @@
  * Java Basic HomeWork1
  *
  * @author VladKolesnyk
- * @version 5/9/2022
+ * @todo 5.9.2022
+ * @date 6.9.2022
  */
 class HomeWork1 {
     public static void main(String[] args) {
@@ -11,6 +12,7 @@ class HomeWork1 {
         int b = 30;
         System.out.println("P = " + ((a * 2) + (b * 2)));
         System.out.println("S = " + (a * b));
+
         // Exercise 2
         float c = 5;
         float e = 3;
@@ -18,6 +20,7 @@ class HomeWork1 {
         System.out.println("Dif = " + (c - e));
         System.out.println("Multi = " + (c * e));
         System.out.println("Div = " + (c / e));
+
         // Exercise 3
         int[] array = new int[5];
         array[0] = 5;
@@ -30,6 +33,7 @@ class HomeWork1 {
         System.out.println(array[2]);
         System.out.println(array[3]);
         System.out.println(array[4]);
+
         // Exercise 4 (r: radius of pizza, cm, constanta = 40 kal/1 kv.cm)
         int r = 10;
         int kal = 40;
