@@ -1,3 +1,10 @@
+/**
+* Базовая домашняя работа Java2
+*
+* @author ВладКолесник
+* @todo 11.9.2022
+* @дата 11.9.2022
+*/
 class HomeWork2 {
     public static void main(String[] args) {
         // Task №1
@@ -21,4 +28,4 @@ class HomeWork2 {
             System.out.println("I cannot walk");
         }
     }
-    }
+}
