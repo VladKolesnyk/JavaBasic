@@ -2,7 +2,7 @@
 * Базовая домашняя работа Java2 - задание 1 и 2
 *
 * @author ВладКолесник
-* @todo 11.9.2022
+* @todo 07.9.2022
 * @дата 11.9.2022
 */
 class HomeWork2 {
@@ -28,5 +28,4 @@ class HomeWork2 {
             System.out.println("I cannot walk");
         }
     }
-    
 }
