@@ -13,13 +13,13 @@ class JavaBasic2Lesson {
             System.out.println("Error Month number!");
         }
         //boolean isWeekend = true;
-        //boolean isIAmFree = true;
-        //if (isWeekend&& isIAmFree){
+        //boolean isCanWalk = true;
+        //if (isWeekend&& isCanWalk){
             //System.out.println("I can walk");
         //} else {
             //System.out.println("I cannot walk");
         }
-        int в = 1;
+        int d = 1;
         switch (m) {
             case 12:
             case 1:

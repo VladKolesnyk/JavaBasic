@@ -1,5 +1,6 @@
 class HomeWork2 {
     public static void main(String[] args) {
+        // Task №1
         int t = 0;
         if (t <= -1) {
             System.out.println("It’s frost");
@@ -10,5 +11,14 @@ class HomeWork2 {
         } else if (t >= 29){
             System.out.println("It’s hot");
         }
+
+        // Task №2
+        boolean isWeekend = true;
+        boolean isRain = !false;
+        if (isWeekend&& isRain){
+            System.out.println("I can walk");
+        } else {
+            System.out.println("I cannot walk");
+        }
     }
-}
+    }
