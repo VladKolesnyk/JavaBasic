@@ -3,15 +3,15 @@
 *
 * @author ВладКолесник
 * @todo 07.9.2022
-* @дата 11.9.2022
+* @дата 13.9.2022
 */
 class HoWo2 {
     public static void main(String[] args) {
         // Task №1
-            System.out.println(checkWeather(-5));
-            System.out.println(checkWeather(5));
-            System.out.println(checkWeather(20));
-            System.out.println(checkWeather(30));
+            System.out.println(checkWeather(-1));
+            System.out.println(checkWeather(1));
+            System.out.println(checkWeather(23));
+            System.out.println(checkWeather(35));
 
         // Task №2
             System.out.println(canWalk(true, true)? "I can walk" : "I can't walk");
