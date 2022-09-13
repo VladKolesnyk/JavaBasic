@@ -8,37 +8,25 @@
 class HoWo2 {
     public static void main(String[] args) {
         // Task №1
-        int t = 0;
-        boolean checkWeather = t <= -1;
-            System.out.println(checkWeather);
-        if (checkWeather) {
-            System.out.println("It’s frost");
-        } else if (t <= 18){
-            System.out.println("It’s cold");
-        } else if (t <= 28){
-            System.out.println("It’s warm");
-        } else if (t >= 29){
-            System.out.println("It’s hot");
-        }
+            System.out.println(checkWeather(-5));
+            System.out.println(checkWeather(5));
+            System.out.println(checkWeather(20));
+            System.out.println(checkWeather(30));
 
         // Task №2
-        boolean isWeekend = true;
-        boolean isRain = !false;
-            System.out.println(isWeekend);
-            System.out.println(isRain);
-        if (isWeekend&& isRain){
-            System.out.println("I can walk");
-        } else {
-            System.out.println("I cannot walk");
-        }
+            System.out.println(canWalk(true, true)? "I can walk" : "I can't walk");
+            System.out.println(canWalk(false, true)? "I can walk" : "I can't walk");
+            System.out.println(canWalk(true, false)? "I can walk" : "I can't walk");
+            System.out.println(canWalk(false, false)? "I can walk" : "I can't walk");
+
         // Task 3
-        int s = add(9, 3);
+        int s = add(5, 3);
         System.out.println(s);
-        int d = sub(9, 3);
+        int d = sub(5, 3);
         System.out.println(d);
-        int m = mul(9, 3);
+        int m = mul(5, 3);
         System.out.println(m);
-        int g = div(9, 3);
+        float g = div(5, 3);
         System.out.println(g);
     }
 
@@ -54,8 +42,23 @@ class HoWo2 {
         int m = a * b;
         return m;
     }
-    static int div(int a, int b){
-        int g = a / b;
+    static float div(float a, float b){
+        float g = a / b;
          return g;
     }
+
+    static String checkWeather (int t) {
+        if (t < 0) {
+            return "It’s frost";
+        } else if (t <= 18){
+            return "It’s cold";
+        } else if (t <= 28){
+            return "It’s warm";
+        } else {
+            return "It’s hot";
+        }
     }
+    static boolean canWalk(boolean isWeekend, boolean isRain){
+        return isWeekend && !isRain;
+    }
+}
