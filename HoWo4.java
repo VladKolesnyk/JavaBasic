@@ -31,6 +31,6 @@ class HoWo4 {
                 System.out.println("You lose.");
             }
             System.out.println("Repeat game? Yes - 1, No - 0: ");
-        } while (scanner.nextInt() == 1);5
+        } while (scanner.nextInt() == 1);
     }
 }
