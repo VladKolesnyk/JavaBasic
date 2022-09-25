@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*** Java Basic Home Work #5
 * @author Vlad Kolesnyk
 * @todo 19.9.2022
-* @date 19.9.2022
+* @date 25.9.2022
 */
 
 class HoWo5 {
