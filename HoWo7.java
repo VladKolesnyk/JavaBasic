@@ -1,5 +1,11 @@
 import java.util.*;
 
+/*** Java Basic Home Work #7
+* @author Vlad Kolesnyk
+* @todo 26.9.2022
+* @date 26.9.2022
+*/
+
 public class HoWo7 {
     public static void main(String[] args) {
         // part of Lottery game
