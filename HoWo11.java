@@ -1,7 +1,7 @@
 /** Java Basic Home Work # 11
  * @author Vlad Kolesnyk
  * @todo 12.10.2022
- * @date 13.10.2022
+ * @date 14.10.2022
  */
 
 import javax.swing.ImageIcon;
